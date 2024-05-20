@@ -1,0 +1,197 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+header {
+    background-color: darkblue	;
+    color: black;
+    padding: 20px 0px;
+}
+header h1 {
+    margin: 0;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+nav ul li{
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.footer ul{
+    list-style: none;
+    padding: 0;
+}
+.footer ul li{
+    display: inline;
+    margin-right: 10px;
+}
+#presentación {
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 0px;
+}
+#presentación h2{
+    font-size: 36px;
+    margin-bottom: 20px;
+    pading: 10px;
+}
+#presentación p{
+    font-size: 18px;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+#presentación .btn {
+    display: inline-block;
+    background-color: darkblue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#presentación .btn:hover{
+    background-color: #0056b3
+}
+#info {
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    color:white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+#Contacto {
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    color:white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+@media only screen and (max-width: 750px) {
+    header {
+        padding: 10px 0;
+    }
+    header h1{
+        font-size: 24px;
+    }
+    nav ul li {
+        margin-right: 10px;
+    }
+    nav ul li a{
+        font-size: 14px;
+    }
+    #presentación{
+        padding: 50px 0;
+    }
+    #presentación h2{
+        font-size: 28px;
+    }
+    #presentación p{
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    #presentación .btn {
+        padding: 8px 16px;
+    }
+    .footer {
+        padding: 20px 0;
+    }
+    .footer ul li{
+        margin-right: 5px;
+    }
+    .footer ul li a{
+        font-size: 12px;
+    }
+    address p{
+        font-size: 12px;
+    }
+    #info h2{
+        font-size: 28px;
+    }
+    #info p {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    #Contacto h2{
+        font-size: 28px;
+    }
+    #Contacto p{
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    form{
+        padding: 10px;
+    }
+    form input[type="text"],
+    form textarea {
+        padding: 8px;
+        margin-bottom: 15px;
+    }
+    form textarea{
+        height: 100px;
+    }
+}
+@media only screen and (min-width: 750px) and (max-width: 1025px) {
+    header {
+        padding: 15px 0;
+    }
+    header h1{
+        font-size: 28px;
+    }
+    nav ul li {
+        margin-right: 15px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+    #presentación h2{
+        font-size: 32px;
+    }
+    #presentación p{
+        font-size: 18px;
+    }
+    #presentación .btn {
+        padding: 12px 24px;
+    }
+    .footer {
+        padding: 30px 0;
+    }
+    .footer ul li a{
+        font-size: 14px;
+    }
+    address p{
+        font-size: 14px;
+    }
+}
